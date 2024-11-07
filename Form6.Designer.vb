@@ -193,7 +193,7 @@ Partial Class txtDescription
         ' 
         ' txtDescription
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(897, 450)
         Controls.Add(completionDatepicker)

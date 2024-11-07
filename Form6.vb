@@ -85,4 +85,10 @@ Public Class txtDescription
         ' Initially load all records into the DataGrid
         LoadDataGrid()
     End Sub
+
+    Private Sub btnOpenForm2_Click(sender As Object, e As EventArgs) Handles btnOpenForm2.Click
+        Dim form2 As New Form2()
+        Me.Hide()
+        form2.Show()
+    End Sub
 End Class
